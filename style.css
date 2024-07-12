@@ -1,0 +1,110 @@
+/* Basic resets */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Centering container */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card styling */
+.card {
+  width: 400px; /* Adjusted width for better fit on smaller screens */
+  height: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally within the card */
+  margin-left: 40px;
+
+}
+
+/* Form elements styling */
+h2 {
+  margin-bottom: 1em;
+  color: #333;
+  text-align: center; /* Center the heading text */
+}
+
+.login{
+  margin-left: 576px;
+  padding-top: 130px;
+}
+.login h2{
+  margin-right: 580px;
+}
+
+.login p{
+  margin-right: 580px;
+  margin-top: 15px;
+}
+.register{
+  margin-left: 576px;
+  padding-top: 130px;
+}
+
+.register button{
+  margin-left: 95px;
+}
+.register h2{
+  margin-right: 580px;
+}
+input[type="email"], input[type="password"] {
+  outline: none;
+  border: none;
+  width: 100%;
+  max-width: 370px; /* Limiting max width for better responsiveness */
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #edf5f3;
+  margin: 10px 0; /* Increased margin for better spacing */
+  font-size: 14px;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  display: block; /* Display inputs as block-level elements */
+  text-align: center; /* Center text within input */
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: #3bb19b;
+  border-radius: 20px;
+  width: 180px; /* Fixed width for the button */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px; /* Increased margin for better spacing */
+}
+
+button:hover {
+  background: #0fada7;
+}
+
+p {
+  margin-top: 1em;
+  text-align: center; /* Center paragraph text */
+}
+
+a {
+  color: #008d6e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
